@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="230" viewBox="0 0 1280 230" role="img" aria-labelledby="title desc">
+  <title id="title">Security research</title>
+  <desc id="desc">Reverse engineering, application security, and open-source contributions.</desc>
+  <rect width="1280" height="230" rx="14" fill="#172022"/>
+  <rect x="0" y="0" width="7" height="230" fill="#d4ae79"/>
+  <path d="M1035 0v230M1125 0v230M1215 0v230M995 68h285M995 158h285" fill="none" stroke="#2c3636" stroke-width="1"/>
+  <circle cx="1125" cy="113" r="64" fill="none" stroke="#829a8b" stroke-width="1.5"/>
+  <circle cx="1125" cy="113" r="34" fill="none" stroke="#d4ae79" stroke-width="1.5"/>
+  <path d="M1035 113h56M1159 113h56M1125 23v56M1125 147v56" fill="none" stroke="#829a8b" stroke-width="1.5"/>
+  <circle cx="1125" cy="113" r="4" fill="#d4ae79"/>
+  <text x="49" y="140" fill="#f4f2e9" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="600" letter-spacing="-1">Security research.</text>
+</svg>
+
