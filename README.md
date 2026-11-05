@@ -1,4 +1,4 @@
-# Ernesto Honigmann
+# doomfrawen
 
 ![Security research](assets/research-header.svg)
 
