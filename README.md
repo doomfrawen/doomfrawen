@@ -10,6 +10,10 @@
   </p>
 </div>
 
+<div align="center">
+  <img src="assets/research-loop.svg" width="100%" alt="Animated illustrative terminal: reproduce a failure, trace the root cause, validate a targeted change, and share the evidence upstream." />
+</div>
+
 ---
 
 I work in application security, threat modeling, and systems engineering. I enjoy getting past the obvious symptoms: reproducing difficult bugs, figuring out why a boundary fails, and making changes that can actually be tested.
