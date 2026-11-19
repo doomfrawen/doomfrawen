@@ -1,13 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="230" viewBox="0 0 1280 230" role="img" aria-labelledby="title desc">
-  <title id="title">Security research</title>
-  <desc id="desc">Reverse engineering, application security, and open-source contributions.</desc>
-  <rect width="1280" height="230" rx="14" fill="#172022"/>
-  <rect x="0" y="0" width="7" height="230" fill="#d4ae79"/>
-  <path d="M1035 0v230M1125 0v230M1215 0v230M995 68h285M995 158h285" fill="none" stroke="#2c3636" stroke-width="1"/>
-  <circle cx="1125" cy="113" r="64" fill="none" stroke="#829a8b" stroke-width="1.5"/>
-  <circle cx="1125" cy="113" r="34" fill="none" stroke="#d4ae79" stroke-width="1.5"/>
-  <path d="M1035 113h56M1159 113h56M1125 23v56M1125 147v56" fill="none" stroke="#829a8b" stroke-width="1.5"/>
-  <circle cx="1125" cy="113" r="4" fill="#d4ae79"/>
-  <text x="49" y="140" fill="#f4f2e9" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="600" letter-spacing="-1">Security research.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="350" viewBox="0 0 1280 350" role="img" aria-labelledby="title desc">
+  <title id="title">doomfrawen — Find the edge case. Follow the evidence.</title>
+  <desc id="desc">Custom dark technical banner for security research, debugging, reverse engineering, and open source work.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1721"/>
+      <stop offset="1" stop-color="#0a1018"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1078 100) rotate(90) scale(260 320)">
+      <stop stop-color="#267363" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#267363" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M 35 0 L 0 0 0 35" fill="none" stroke="#8ea6a2" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#70e7c1"/>
+      <stop offset="1" stop-color="#70e7c1" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1280" height="350" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="350" fill="url(#background)"/>
+    <rect width="1280" height="350" fill="url(#grid)"/>
+    <rect width="1280" height="350" fill="url(#glow)"/>
+    <rect width="1280" height="350" fill="none" stroke="#3b535c" stroke-opacity="0.75" stroke-width="2"/>
+    <rect x="0" y="0" width="6" height="350" fill="#70e7c1"/>
 
+    <circle cx="57" cy="49" r="6" fill="#70e7c1"/>
+    <text x="76" y="55" font-family="Consolas, Menlo, monospace" font-size="17" font-weight="700" letter-spacing="2.4" fill="#d8eee9">DOOMFRAWEN</text>
+    <text x="57" y="104" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="1.6" fill="#f4bb77">SECURITY ENGINEERING / FIELD NOTES</text>
+
+    <text x="54" y="174" font-family="Segoe UI, Arial, sans-serif" font-size="55" font-weight="800" letter-spacing="-1.6" fill="#f3f6f5">Find the edge case.</text>
+    <text x="54" y="234" font-family="Segoe UI, Arial, sans-serif" font-size="55" font-weight="800" letter-spacing="-1.6" fill="#70e7c1">Follow the evidence.</text>
+
+    <rect x="57" y="265" width="535" height="1.5" fill="url(#rule)"/>
+    <text x="57" y="299" font-family="Consolas, Menlo, monospace" font-size="15" fill="#adbfbe">AppSec   /   Reverse engineering   /   Open source</text>
+
+    <g transform="translate(814 57)">
+      <rect width="400" height="244" rx="13" fill="#111d28" stroke="#3e5560" stroke-width="1.5"/>
+      <rect width="400" height="43" rx="13" fill="#172633"/>
+      <rect x="0" y="29" width="400" height="14" fill="#172633"/>
+      <path d="M0 43H400" stroke="#3e5560" stroke-width="1"/>
+      <circle cx="23" cy="21" r="5" fill="#f1ae7a"/>
+      <circle cx="41" cy="21" r="5" fill="#e6ce8b"/>
+      <circle cx="59" cy="21" r="5" fill="#72d7af"/>
+      <text x="197" y="26" font-family="Consolas, Menlo, monospace" font-size="13" fill="#90a8b1" text-anchor="middle">research / notes</text>
+      <text x="26" y="83" font-family="Consolas, Menlo, monospace" font-size="15" fill="#6ce0ba">$</text>
+      <text x="49" y="83" font-family="Consolas, Menlo, monospace" font-size="15" fill="#e9efef">cat focus.txt</text>
+      <text x="26" y="119" font-family="Consolas, Menlo, monospace" font-size="15" fill="#9fb5b9">01</text>
+      <text x="61" y="119" font-family="Consolas, Menlo, monospace" font-size="15" fill="#e7ecea">reproduce the issue</text>
+      <text x="26" y="151" font-family="Consolas, Menlo, monospace" font-size="15" fill="#9fb5b9">02</text>
+      <text x="61" y="151" font-family="Consolas, Menlo, monospace" font-size="15" fill="#e7ecea">trace the behavior</text>
+      <text x="26" y="183" font-family="Consolas, Menlo, monospace" font-size="15" fill="#9fb5b9">03</text>
+      <text x="61" y="183" font-family="Consolas, Menlo, monospace" font-size="15" fill="#e7ecea">propose a useful fix</text>
+      <path d="M25 203H375" stroke="#2f4551"/>
+      <text x="26" y="228" font-family="Consolas, Menlo, monospace" font-size="13" fill="#70e7c1">research ≠ guesswork</text>
+      <rect x="196" y="217" width="8" height="13" fill="#70e7c1" opacity="0.8"/>
+    </g>
+    <text x="1199" y="331" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="11" fill="#6d848a">/ 001</text>
+  </g>
+</svg>
